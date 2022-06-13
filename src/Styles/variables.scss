@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Dancing+Script:wght@700&family=Merienda+One&family=Merienda:wght@400;700&family=Mukta:wght@300&display=swap');
+
+$fontHeader: 50px;
+$baseFontSize: 30px;
+$baseMargin: 5px;
+$baseBorder: 1px;
+$baseColor: rgb(10, 127, 94);
+$baseBackground: rgb(10, 127, 94, .2);
+
+@function heightSeparateLine($qString) {
+    @return ($baseFontSize + $baseMargin + $baseBorder + 5px) + ($baseFontSize * 2 + 1px) * $qString;
+}

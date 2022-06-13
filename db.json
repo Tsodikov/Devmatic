@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "12b46f82-9e10-46c3-a4c1-05d1c9c24710",
+      "name": "Leonid",
+      "hobbie": [
+        {
+          "id": "35ca7123-9702-435b-a3a6-95fb5b9606ca",
+          "passion": "High",
+          "hobbie": "Fishing",
+          "since": "1967"
+        },
+        {
+          "id": "b9395712-03e8-4d73-829e-1a28c7004090",
+          "passion": "Very-High",
+          "hobbie": "Reading books",
+          "since": "1962"
+        }
+      ]
+    },
+    {
+      "id": "2a94967d-7522-4a7a-ab3c-b06dfc22b5e7",
+      "name": "Craig",
+      "hobbie": []
+    },
+    {
+      "id": "44fd2b2f-4b34-4226-823c-fc82b7c92e5e",
+      "name": "Richard",
+      "hobbie": []
+    },
+    {
+      "id": "baf73639-b06b-4a6f-8ee4-926f0cdd8429",
+      "name": "Ricardo",
+      "hobbie": []
+    }
+  ],
+  "passions": [
+    {
+      "id": "1",
+      "Passion": "Medium"
+    },
+    {
+      "id": "2",
+      "Passion": "High"
+    },
+    {
+      "id": "3",
+      "Passion": "Low"
+    },
+    {
+      "id": "4",
+      "Passion": "Very-High"
+    }
+  ],
+  "hobbies": [
+    {
+      "id": "1",
+      "hobbie": "Playing football"
+    },
+    {
+      "id": "2",
+      "hobbie": "Listening to music"
+    },
+    {
+      "id": "3",
+      "hobbie": "Going to Concert"
+    },
+    {
+      "id": "4",
+      "hobbie": "Coding"
+    }
+  ]
+}

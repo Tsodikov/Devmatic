@@ -1,0 +1,54 @@
+@import '../../Styles/variables.scss';
+
+.control-element-container {
+    display: inline-flex;
+    width: 100%;
+    border: none;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    background: none;
+}
+
+.input {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    width: calc(100% - 50px);
+    top: 0;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    background: none;  
+    &::placeholder {
+        font-family: 'Mukta', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+    }
+    &:focus {
+        background   : rgb(10, 127, 94, .1);;
+        border-radius: 5px;
+        outline      : none;
+    }
+    &-right {
+        width: calc((100% - 50px)/3 - 5px)
+    }
+}
+
+.add-button {
+    width: 50px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    border: $baseBorder solid rgb(160, 166, 243);
+    border-radius: 4px;
+    background: none;
+    margin-right: 5px;
+    box-shadow: 2px;
+    &:hover {
+        border: $baseBorder + 1px solid rgb(160, 166, 243);
+        cursor: pointer;
+    }
+    &:active {
+        font-weight: bolder;
+        border: $baseBorder + 2 px solid rgb(160, 166, 243);
+    }
+}

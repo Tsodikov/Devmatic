@@ -1,0 +1,47 @@
+@import '../../Styles/variables.scss';
+
+.user-hobbie-list {
+    padding-inline-start: 0px;
+    font-size: $baseFontSize;
+    padding-left: 5px;
+    margin-top: 0px;
+    padding-top: 0px
+}
+
+.hobbie-str {
+    list-style-type: none;
+    background-color: rgb(10, 127, 94, .07);
+    border-radius: 7px;
+    width: 100%;
+    height: $baseFontSize * 2;
+    display: inline-flex;   
+    font-size: $baseFontSize;
+    padding-top: $baseFontSize / 2;
+    color: $baseColor;
+    margin-bottom: 3px;
+    
+    &-passion {
+        width: 31%;
+        display: inline-flex;
+        font-size: $baseFontSize / 1.4;
+        padding-top: 5px;
+        
+    }
+    &-since {
+        display: inline-flex;
+        width:25%;
+        margin-left: 0%;
+        font-size: $baseFontSize / 1.4;
+        // vertical-align: text-bottom;
+        align-items: right;
+        text-align: right;
+        padding-top: 5px;
+    }
+    &-hobbie {
+        display: inline-flex;
+        font-size: $baseFontSize;
+        margin-left: 0%;
+        width: 40%;
+    }
+    
+}
